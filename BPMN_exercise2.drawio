@@ -13,11 +13,81 @@
         <mxCell id="hl_wVnk6heWGSeB800Sb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-1" target="hl_wVnk6heWGSeB800Sb-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-4" target="hl_wVnk6heWGSeB800Sb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hl_wVnk6heWGSeB800Sb-4" value="Check parts availability" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="370" y="115" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hl_wVnk6heWGSeB800Sb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-2" target="hl_wVnk6heWGSeB800Sb-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-6" target="hl_wVnk6heWGSeB800Sb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hl_wVnk6heWGSeB800Sb-10">
+          <mxGeometry x="-0.06" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-6" target="hl_wVnk6heWGSeB800Sb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hl_wVnk6heWGSeB800Sb-15">
+          <mxGeometry x="-0.0424" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-6" value="Whether parts are in stock or not" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-9" target="hl_wVnk6heWGSeB800Sb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-9" value="Produce a list and order parts from supplier" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="750" y="115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-11" value="The parts supplier sends a delivery schedule" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="950" y="115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-14" target="hl_wVnk6heWGSeB800Sb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-14" value="Produce a work order" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="565" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-17" target="hl_wVnk6heWGSeB800Sb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-17" value="Produce delivery schedule and send to customer" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-19" target="hl_wVnk6heWGSeB800Sb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-19" value="Receive parts from the supplier" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="950" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-22" target="hl_wVnk6heWGSeB800Sb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-22" value="Assemble products" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="950" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-24" target="hl_wVnk6heWGSeB800Sb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-24" value="Deliver products to warehouse" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="750" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl_wVnk6heWGSeB800Sb-26" target="hl_wVnk6heWGSeB800Sb-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-26" value="Complete work order" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="565" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl_wVnk6heWGSeB800Sb-28" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
