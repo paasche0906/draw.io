@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.2">
   <diagram name="第 1 页" id="a1MJDLjB0TSyN4vBWoYT">
-    <mxGraphModel>
+    <mxGraphModel dx="1413" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-1" value="User Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-2" value="Access Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-3" value="Business Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-4" value="Storage Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-5" value="Service Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-6" value="Resource Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-7" value="User Interface and Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="135" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-8" value="Accept and Forward Requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="235" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-9" value="Process Business Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-10" value="Public Services, Abstraction of Common Business Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="135" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-11" value="Store Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="235" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tgj5_CPsJGM1aNlBXlDt-12" value="Underlying Environment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
