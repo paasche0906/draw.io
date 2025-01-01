@@ -1,9 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="第 1 页" id="a6wfArO-Y8fAT_5yJcVv">
-    <mxGraphModel>
+    <mxGraphModel dx="557" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-3" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="470" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-4" value="System" style="swimlane;html=1;startSize=20;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-3">
+          <mxGeometry x="20" width="210" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-4" source="rp6b0w_GxRdIaQ9wWKVs-10" target="rp6b0w_GxRdIaQ9wWKVs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-10" value="Inventory update" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-4">
+          <mxGeometry x="47.5" y="50" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-4" source="rp6b0w_GxRdIaQ9wWKVs-11" target="rp6b0w_GxRdIaQ9wWKVs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-11" value="Inventory Monitoring" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-4">
+          <mxGeometry x="47.5" y="140" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-4" source="rp6b0w_GxRdIaQ9wWKVs-13" target="rp6b0w_GxRdIaQ9wWKVs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-13" value="Purchase Order Generation" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-4">
+          <mxGeometry x="47.5" y="330" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-4" source="rp6b0w_GxRdIaQ9wWKVs-14" target="rp6b0w_GxRdIaQ9wWKVs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-18" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rp6b0w_GxRdIaQ9wWKVs-17">
+          <mxGeometry x="-0.0167" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-14" value="Whether the inventory&amp;nbsp;&lt;div&gt;is below the alert level&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-4">
+          <mxGeometry x="90" y="215" width="30" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-4" source="rp6b0w_GxRdIaQ9wWKVs-14" target="rp6b0w_GxRdIaQ9wWKVs-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="183" y="228" />
+              <mxPoint x="183" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rp6b0w_GxRdIaQ9wWKVs-19">
+          <mxGeometry x="0.1301" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-26" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-4">
+          <mxGeometry x="90" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-5" value="Warehouse Team" style="swimlane;html=1;startSize=20;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-3">
+          <mxGeometry x="230" width="240" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-8" value="Receipt of raw materials" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-5">
+          <mxGeometry x="52.5" y="40" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-9" value="Waste disposal" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-5">
+          <mxGeometry x="52.5" y="180" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-5" source="rp6b0w_GxRdIaQ9wWKVs-7" target="rp6b0w_GxRdIaQ9wWKVs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-7" value="Supplier deliveries" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="rp6b0w_GxRdIaQ9wWKVs-5">
+          <mxGeometry x="290" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-3" source="rp6b0w_GxRdIaQ9wWKVs-8" target="rp6b0w_GxRdIaQ9wWKVs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp6b0w_GxRdIaQ9wWKVs-3" source="rp6b0w_GxRdIaQ9wWKVs-26" target="rp6b0w_GxRdIaQ9wWKVs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-25" value="Inventory data&amp;nbsp;&lt;div&gt;synchronisation completed&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="540" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rp6b0w_GxRdIaQ9wWKVs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rp6b0w_GxRdIaQ9wWKVs-9" target="rp6b0w_GxRdIaQ9wWKVs-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
