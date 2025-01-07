@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="第 1 页" id="iSnH0mAWdETwvdwvoOpq">
-    <mxGraphModel dx="1397" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2240" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,19 +24,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-2" value="Code Sandbox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="260" width="160" height="130" as="geometry" />
+          <mxGeometry x="650" y="260" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-5" value="1. Send the code of the topic,&amp;nbsp;&lt;div&gt;the input use case of the topic,&amp;nbsp;&lt;/div&gt;&lt;div&gt;the programming language, etc&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="230" width="190" height="60" as="geometry" />
+          <mxGeometry x="350" y="230" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-6" value="3. Return execution results&amp;nbsp;&lt;div&gt;(a set of program output,&amp;nbsp;&lt;/div&gt;&lt;div&gt;execution information,&amp;nbsp;&lt;/div&gt;&lt;div&gt;execution status,&amp;nbsp;&lt;/div&gt;&lt;div&gt;execution environment information)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="370" width="210" height="90" as="geometry" />
+          <mxGeometry x="340" y="360" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-7" value="2. Compile and execute the code to get a set of running results" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="230" width="360" height="30" as="geometry" />
+          <mxGeometry x="550" y="230" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-8" value="4. Judge according to the rules&amp;nbsp;&lt;div&gt;(such as comparing whether the input and output are consistent)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="190" width="370" height="40" as="geometry" />
+          <mxGeometry x="-20" y="220" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
