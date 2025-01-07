@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="第 1 页" id="iSnH0mAWdETwvdwvoOpq">
-    <mxGraphModel dx="2240" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,6 +37,33 @@
         </mxCell>
         <mxCell id="42p59Sw4gbuO9yH6LwGv-8" value="4. Judge according to the rules&amp;nbsp;&lt;div&gt;(such as comparing whether the input and output are consistent)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="220" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42p59Sw4gbuO9yH6LwGv-9" target="42p59Sw4gbuO9yH6LwGv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-9" value="1) Pass in the submission id of the topic to obtain the corresponding topic and submission information (including code, programming language, etc.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42p59Sw4gbuO9yH6LwGv-10" target="42p59Sw4gbuO9yH6LwGv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-10" value="2) If the submission status of the topic is not waiting, there is no need to repeat the execution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42p59Sw4gbuO9yH6LwGv-12" target="42p59Sw4gbuO9yH6LwGv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-12" value="3) The status of the test (subject submission) is changed to &quot;test&quot; to prevent repeated execution and allow users to see the status immediately" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="810" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42p59Sw4gbuO9yH6LwGv-14" target="42p59Sw4gbuO9yH6LwGv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-14" value="4) Call the sandbox and get the execution result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="960" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42p59Sw4gbuO9yH6LwGv-16" value="5) According to the execution result of the sandbox, set the problem status and information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="960" width="220" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
