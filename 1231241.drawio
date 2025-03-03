@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.13">
   <diagram name="第 1 页" id="44MEdrVY02ckjpD66CED">
-    <mxGraphModel>
+    <mxGraphModel dx="1413" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="270UAb0-9WW7hcXz7RdF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-2" value="apple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="175" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-3" value="app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="177.5" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-4" value="api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="175" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-5" value="Use the list to occupy 11 characters." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="270UAb0-9WW7hcXz7RdF-6" target="270UAb0-9WW7hcXz7RdF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-6" value="a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="270UAb0-9WW7hcXz7RdF-7" target="270UAb0-9WW7hcXz7RdF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="270UAb0-9WW7hcXz7RdF-7" target="270UAb0-9WW7hcXz7RdF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-7" value="p" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="270UAb0-9WW7hcXz7RdF-8" target="270UAb0-9WW7hcXz7RdF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-8" value="p" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="270UAb0-9WW7hcXz7RdF-9" target="270UAb0-9WW7hcXz7RdF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-9" value="l" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-10" value="e" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-11" value="i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="270UAb0-9WW7hcXz7RdF-18" value="Using a dictionary tree saves space" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
