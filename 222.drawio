@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="kjOPIYkYxxWE140Pv7PZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1405" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0GIKOMHvHliRTx_kGti2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-1" target="0GIKOMHvHliRTx_kGti2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-1" target="0GIKOMHvHliRTx_kGti2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-1" target="0GIKOMHvHliRTx_kGti2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-1" value="Static Factory Pattern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-2" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; text-align: start; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;ExampleCodeSandbox&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-3" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; text-align: start; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;RemoteCodeSandbox&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-4" value="&lt;span style=&quot;color: rgb(163, 21, 21); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 13.6px; text-align: start; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;ThirdPartyCodeSandbox&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-8" value="Proxy Pattern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-9" target="0GIKOMHvHliRTx_kGti2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-9" value="1. Implements the interface to be proxied" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-10" target="0GIKOMHvHliRTx_kGti2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-10" value="2.&amp;nbsp;Accepts a proxied interface implementation class via a constructor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-11" value="3.&amp;nbsp;Calls the proxied interface implementation class, adding the corresponding operation before and after the call" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Design Pattern&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-16" value="Strategy Pattern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="384" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-18" value="&lt;h3&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:等线;&lt;br/&gt;mso-fareast-theme-font:minor-fareast;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;Judgment Architecture&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-19" target="0GIKOMHvHliRTx_kGti2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-19" value="1. Define the judgment strategy interface" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="452" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-20" target="0GIKOMHvHliRTx_kGti2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-20" value="2.&amp;nbsp;Define the judgment context object" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="452" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-21" target="0GIKOMHvHliRTx_kGti2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-21" value="3.&amp;nbsp;Implement the default decision strategy" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="452" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-22" value="5.&amp;nbsp;Define the JudgeManager" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="714" y="452" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0GIKOMHvHliRTx_kGti2-23" target="0GIKOMHvHliRTx_kGti2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0GIKOMHvHliRTx_kGti2-23" value="4.&amp;nbsp;Add a new judging strategy" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="452" width="150" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
